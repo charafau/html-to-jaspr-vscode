@@ -4,7 +4,6 @@ import { Wasm } from '@vscode/wasm-wasi/v1';
 
 export async function activate(context: vscode.ExtensionContext) {
 
-	console.log('Congratulations, your extension "html-to-jaspr" is now active!');
 	const wasm: Wasm = await Wasm.load();
 	let dart2wasm_runtime;
 	let moduleInstance;
