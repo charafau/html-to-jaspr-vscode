@@ -2,7 +2,7 @@
   "name": "html-to-jaspr",
   "displayName": "Html to Jaspr",
   "description": "HTML to Dart Jaspr Converter",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.98.0"
   },
