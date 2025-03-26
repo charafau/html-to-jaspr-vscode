@@ -4,7 +4,6 @@ on:
       - "*"
 
 name: Publish VS Code Extension
-uses: HaaLeo/publish-vscode-extension@v2
 jobs:
   deploy:
     runs-on: ubuntu-latest
