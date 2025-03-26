@@ -1,71 +1,45 @@
-# html-to-jaspr README
+# HTML to Jaspr Converter for VSCode
 
-This is the README for your extension "html-to-jaspr". After writing up a brief description, we recommend including the following sections.
+This Visual Studio Code extension facilitates the conversion of HTML code into Dart components compatible with the [Jaspr framework](https://github.com/schultek/jaspr). 
 
-## Features
+This project uses [Html to Jaspr](https://github.com/charafau/htmltojaspr) library underneath.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
 
-For example if there is an image subfolder under your extension project workspace:
+## Usage
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- Open a Dart project in VSCode.
+- Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on macOS).
+- Type `HTML to Jaspr: Convert` and press Enter.
+- Paste your HTML code into the editor.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- **Visual Studio Code**: Latest version recommended.
+- **Dart SDK**: Ensure Dart is installed and properly configured in your system.
 
-## Extension Settings
+## Contributing
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+Contributions are welcome! To contribute:
 
-For example:
+1. **Fork the Repository**: Click on the 'Fork' button at the top-right corner of this page.
+2. **Clone Your Fork**:
+   - ```bash
+     git clone https://github.com/your-username/html-to-jaspr-vscode.git
+     ```
+3. **Create a New Branch**:
+   - ```bash
+     git checkout -b feature/your-feature-name
+     ```
+4. **Make Your Changes**: Implement your feature or fix.
+5. **Commit and Push**:
+   - ```bash
+     git add .
+     git commit -m "Your commit message"
+     git push origin feature/your-feature-name
+     ```
+6. **Submit a Pull Request**: Navigate to your fork on GitHub and click on 'New Pull Request'.
 
-This extension contributes the following settings:
+## License
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/charafau/html-to-jaspr-vscode/blob/main/LICENSE) file for details.
 
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
