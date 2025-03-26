@@ -14,9 +14,9 @@ jobs:
           node-version: 20
       - name: Download artifacts
         run: mkdir media && curl -L https://github.com/charafau/htmltojaspr/releases/download/v0.1.0/htmltojaspr.mjs > media/htmltojaspr.mjs && curl -L https://github.com/charafau/htmltojaspr/releases/download/v0.1.0/htmltojaspr.wasm > media/htmltojaspr.wasm
-      # - run: npm ci
-      # - name: Publish to Visual Studio Marketplace
-      #   uses: HaaLeo/publish-vscode-extension@v2
-      #   with:
-      #     pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
-      #     registryUrl: https://marketplace.visualstudio.com
+      - run: npm ci
+      - name: Publish to Visual Studio Marketplace
+        uses: HaaLeo/publish-vscode-extension@v2
+        with:
+          pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
+          registryUrl: https://marketplace.visualstudio.com
