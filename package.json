@@ -1,11 +1,24 @@
 {
   "name": "html-to-jaspr",
-  "displayName": "Html to Jaspr",
+  "displayName": "Html to Jaspr Converter",
   "description": "HTML to Dart Jaspr Converter",
   "version": "0.1.0",
+  "icon": "logo.png",
   "engines": {
     "vscode": "^1.98.0"
   },
+  "publisher": "nullpointerbay",
+  "homepage": "https://github.com/charafau/html-to-jaspr-vscode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charafau/html-to-jaspr-vscode"
+  },
+  "keywords": [
+    "Dart",
+    "Jaspr",
+    "Converter",
+    "Html"
+  ],
   "categories": [
     "Other"
   ],
